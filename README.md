@@ -1,15 +1,8 @@
+Reproduction of www.pba-lille.fr 
 
 
+Responsive:ok
 
-
-
-Rémi Lefebvre
-
-@@@@@@@  	@@@@
-@@@@@@@@  	@@@@
-@@   @@@@ 	@@@@
-@@   @@@  	@@@@
-@@@@@@@  	@@@@
-@@  @@@  	@@@@
-@@   @@@   @@	@@@@@@@@@ @@
-@@    @@@  @@	@@@@@@@@@ @@
+Lefebvre Rémi
+Batiste Adventura
+Leila 

@@ -92,9 +92,7 @@ main{
 }
 
 .transition{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: relative;
 }
 
 .transition>p{
@@ -102,11 +100,18 @@ main{
   color: white;
 }
 
+.transition>p, #flecheZigzag{
+  position: relative;
+  display: inline-block;
+}
+
 #flecheZigzag{
   width: 50px;
+  margin-left:40%;
 }
 
 #flechebas{
+  margin-left:50%;
   display: block;
   width: 20px;
 }

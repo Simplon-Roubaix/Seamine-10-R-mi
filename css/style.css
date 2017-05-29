@@ -146,6 +146,64 @@ main{
 #flechebas{
   display: block;
   width: 20px;
+  margin: auto;
+}
+
+#expo{
+  position: relative;
+}
+
+#expo>article>a{
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  margin-top: 75px;
+  font-size: 1.5em;
+  color: black;
+}
+
+#expo>article>a:hover{
+  color:red;
+  text-decoration: none;
+}
+
+#expo>.grandbleu, #expo>.love, #expo>.table, #expo>.ange, #expo>.bete, #expo>.lettre, #expo>.brune, #expo>.mini{
+  background-size: cover;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+#expo>.grandbleu{
+  background-image: url(../img/imgVisite/ordinateur/legrandbleu.jpg);
+}
+
+#expo>.love{
+  background-image: url(../img/imgVisite/mobile/love.png);
+}
+
+#expo>.table{
+  background-image: url(../img/imgVisite/mobile/table.png);
+}
+
+#expo>.ange{
+  background-image: url(../img/imgVisite/mobile/angedemon.png);
+}
+
+#expo>.bete{
+  background-image: url(../img/imgVisite/mobile/bete.png);
+}
+
+#expo>.lettre{
+  background-image: url(../img/imgVisite/mobile/chiffrelettre.png);
+}
+
+#expo>.brune{
+  background-image: url(../img/imgVisite/mobile/blondebrune.png);
+}
+
+#expo>.mini{
+  background-image: url(../img/imgVisite/mobile/minimaxi.png);
 }
 
 footer{

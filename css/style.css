@@ -102,11 +102,10 @@ main{
   font-style: Reem Kufi;
 }
 
-.typeVisite1 a:hover, .typeVisite2 a:hover, .typeVisite3 a:hover, .typeVisite4 a:hover, .typeVisite5 a:hover{
+.typeVisite1:hover a, .typeVisite2:hover a, .typeVisite3:hover a, .typeVisite4:hover a, .typeVisite5:hover a{
   color:red;
   text-decoration: none;
 }
-
 .choixVisite>figure>figcaption{
 
 }
@@ -170,7 +169,7 @@ main{
   color: black;
 }
 
-#expo>article>a:hover{
+#expo>.grandbleu:hover a, #expo>.love:hover a, #expo>.table:hover a, #expo>.ange:hover a, #expo>.bete:hover a, #expo>.lettre:hover a, #expo>.brune:hover a, #expo>.mini:hover a{
   color:red;
   text-decoration: none;
 }
@@ -271,7 +270,9 @@ main{
 
 .teleapp:hover{
   background-color: white;
-  animation-duration: 2s;
+  color:white;
+  transition: all 0.3s;
+
 }
 
 .teleapp>.row>h4{
@@ -280,7 +281,6 @@ main{
 }
 .teleapp:hover h4{
   color:red;
-  animation-duration: 2s;
 }
 
 .teleapp>.row>small{
@@ -302,7 +302,16 @@ main{
 
 .teleapp:hover .tablettmobile{
   background-image: url(../img/imgVisite/mobile/logoteleapprouge.png);
-  animation-duration: 2s;
+}
+
+@keyframes changecolor{
+
+  0%{
+    background-color:red;
+  }
+  100%{
+    background-color:white;
+  }
 }
 
 footer{

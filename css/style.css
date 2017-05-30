@@ -20,6 +20,8 @@ main{
   background-color: black;
 }
 
+/******Section Typevisite******/
+
 .typeVisite1,.typeVisite2,.typeVisite3,.typeVisite4,.typeVisite5{
   display: inline-block;
   background-color: black;
@@ -109,6 +111,8 @@ main{
 
 }
 
+/******Section Transition*****/
+
 .transition{
   position: relative;
   width: 90%;
@@ -150,6 +154,8 @@ main{
   width: 20px;
   margin: auto;
 }
+
+/*********Section Exposition**********/
 
 #expo{
   position: relative;
@@ -208,6 +214,8 @@ main{
   background-image: url(../img/imgVisite/mobile/minimaxi.png);
 }
 
+/*******Section Incontournable*******/
+
 .incontournableblancheur{
   background-color: white;
 }
@@ -215,6 +223,10 @@ main{
 #incontournable>h4{
   margin-top: 50px;
   text-align: center;
+}
+
+#incontournable>.row{
+  margin-bottom: 0;
 }
 
 #incontournable>article>a{
@@ -251,7 +263,64 @@ main{
   background-image: url(../img/imgVisite/mobile/incontournable3.png);
 }
 
+/******Section Téléchargement App*******/
+
+.teleapp{
+  background-color: red;
+}
+
+.teleapp:hover{
+  background-color: white;
+  animation-duration: 2s;
+}
+
+.teleapp>.row>h4{
+  text-align: center;
+  color:white;
+}
+.teleapp:hover h4{
+  color:red;
+  animation-duration: 2s;
+}
+
+.teleapp>.row>small{
+  text-align: center;
+  color:white;
+  margin-right: 10px;
+}
+
+.teleapp:hover small{
+  color:red;
+}
+
+.teleapp>.row>.tablettmobile{
+  background-image: url(../img/imgVisite/mobile/logoteleappblanc.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+}
+
+.teleapp:hover .tablettmobile{
+  background-image: url(../img/imgVisite/mobile/logoteleapprouge.png);
+  animation-duration: 2s;
+}
+
 footer{
+
+}
+
+@media screen and (max-width: 1280px) {
+  .teleapp>.row>h4>small{
+    display: none;
+  }
+  .teleapp>.row>h4{
+    border:2px solid white;
+    width: 95%;
+  }
+
+  .teleapp:hover h4{
+    border:2px solid red;
+  }
 
 }
 

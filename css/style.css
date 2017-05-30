@@ -237,7 +237,7 @@ main{
   margin: 150px 0 0 100px;
 }
 
-#incontournable>article>a:hover{
+#incontournable>.incontournable30mn:hover a,#incontournable>.incontournable60mn:hover a,#incontournable>.incontournable90mn:hover a{
   color:red;
 }
 
@@ -314,8 +314,20 @@ main{
   }
 }
 
-footer{
+footer>.row>article>ul>li,
+footer>.row>article>h4,
+footer>.row>article>p,
+footer>.row>article a,#basfooter ul li a{
+  color:white;
+}
 
+#hautfooter>article>img, #hautfooter>article>h4>a {
+  display: block;
+}
+
+footer>.row>article>img{
+  height: 50px;
+  width: 50px;
 }
 
 @media screen and (max-width: 1280px) {

@@ -154,10 +154,6 @@ footer{
 
 /* $$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$*/
 
-/*.image {
-  width: 100%;
-  height: 300px;
-}*/
 
 #article .section{
   padding: 0;
@@ -225,8 +221,8 @@ footer{
 
 /*!!!!!!!!!!!!!!!!! DESKTOP !!!!!!!!!!!!!!!!!!!!!*/
 @media (min-width: 1280px) {
-  /*----------------- START STYLE HEADER FOR LARGE DESKTOP-------*/
 
+/*$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$$*/
     .nav-mobile-right
     {
       display:none;
@@ -355,7 +351,10 @@ footer{
       background-position: right;
     }
 
-.image {
-  width: 230px;
+/*$$$$$$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$$$*/
+#article .section{
+ margin-left: 88px;
 }
+
+
 }

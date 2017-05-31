@@ -31,73 +31,69 @@
 
     <body>
 
-     <header>
+      <header class="entete w-100">
 
-       <div class="menu-section">
-  <div class="menu-toggle">
-    <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
-  </div>
-</div>
-<nav>
-		<ul role="navigation" class="hidden">
-			<li><a href="#">work</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">resume</a></li>
-			<li><a href="#">contact</a></li>
-		</ul>
-	</nav>
-</div>
-       <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-inverse">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button> -->
-  <img class="logo" src="tile.png" alt="logo pba">
-  <a class="navbar-brand hidden text-white" href="#">COLLECTIONS</a>
-  <a class="navbar-brand text-white" href="#">AGENDA</a>
+          <figure class="no-mobile titre1">
+            <img src="img/titre.png" alt="titre">
+          </figure>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link text-white" href="#">COLLECTIONS <span class="sr-only">(current)</span></a>
-      </li>
 
-      <li class="nav-item active">
-        <a class="nav-link text-white" href="#">VISITER <span class="sr-only">(current)</span></a>
-      </li>
+          <!--  nav non mobile -->
+          <ul class="no-mobile menu">
+            <li><a href="index.html">COLLECTIONS</a></li>
+            <li><a href="visiter.html">VISITER</a></li>
+            <li><a href="#">AGENDA</a></li>
+            <li><a href="#">INFOS</a></li>
+          </ul>
 
-      <li class="nav-item active">
-        <a class="nav-link text-white" href="#">AGENDA <span class="sr-only">(current)</span></a>
-      </li>
+          <form class="no-mobile form">
+            <div class="search">
+              <input type="search" name="" value="">
+              <span class="icon flaticon-uniE92A"></span>
+            </div>
+          </form>
+          <div class="langueselect no-mobile">
+            <ul>
+              <li>
+                <i class="fa fa-angle-down" style="font-size:24px"></i><a href="#">français
 
-      <li class="nav-item active">
-        <a class="nav-link text-white" href="#">INFOS <span class="sr-only">(current)</span></a>
-      </li>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--  nav of mobile and tablette  -->
+          <div class="nav-mobile-right">
+            <div class="search">
+              <a href="#"> <i class="fa fa-search fa-2x" aria-hidden="true"></i></a>
 
-    </ul>
+            </div>
+            <div class="info">
+              <a href="#"><i class="fa fa-info-circle fa-2x " aria-hidden="true "></i></a>
 
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    </form>
+            </div>
 
-<div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Français
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">English</a>
-          <a class="dropdown-item" href="#">Dutch</a>
-        </div>
-      </li>
-    </ul>
-</div>
+            <div class="button-burger">
+              <button onclick="myFunction()"  class="dropbtn"> <i class="fa fa-bars fa-x " aria-hidden="true "></i></button>
+              <div id="monmenu" class="menu-cache">
+                <a href="#"><span class="icon flaticon-uniE905"></span> Collections</a>
+                <a href="visiter.html"><span class="icon flaticon-uniE922"></span> Visiter</a>
+                <a href="#"><span class="icon flaticon-uniE92B"></span> Agenda</a>
+                <a href="#"><span class="icon flaticon-uniE92B"></span>contactez-nous</a>
 
-  </div>
-</nav>
-</header>
+              </div>
+
+            </div>
+          </div>
+
+          <aside class="logo-palais">
+
+          </aside>
+
+
+
+        </header>
+
+
 
 
 

@@ -304,25 +304,23 @@ main{
   background-image: url(../img/imgVisite/mobile/logoteleapprouge.png);
 }
 
-@keyframes changecolor{
 
-  0%{
-    background-color:red;
-  }
-  100%{
-    background-color:white;
-  }
-}
 
 footer>.row>article>ul>li,
 footer>.row>article>h4,
 footer>.row>article>p,
-footer>.row>article a,#basfooter ul li a{
+#basfooter>small,
+footer>.row>article a, #basfooter ul li a{
   color:white;
 }
 
-#hautfooter>article>img, #hautfooter>article>h4>a {
-  display: block;
+#hautfooter>.pratique>p{
+  font-size: 0.5em;
+}
+
+#hautfooter>.pratique>ul>li{
+  text-align: center;
+  list-style-type: none;
 }
 
 footer>.row>article>img{
@@ -330,7 +328,11 @@ footer>.row>article>img{
   width: 50px;
 }
 
-@media screen and (max-width: 1280px) {
+#basfooter>small, #basfooter>img{
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
   .teleapp>.row>h4>small{
     display: none;
   }
@@ -341,6 +343,14 @@ footer>.row>article>img{
 
   .teleapp:hover h4{
     border:2px solid red;
+  }
+
+  #hautfooter>.pratique>p{
+    font-size: 0.8em;
+    text-align: center;
+  }
+  #hautfooter>.pratique{
+    text-align: left;
   }
 
 }

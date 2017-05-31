@@ -1,3 +1,82 @@
+<<<<<<< HEAD
 
+=======
+@font-face {
+  font-family: Lovelo;
+  src: url("../font/Lovelo_Black_1_.ttf");
+}
+@font-face {
+  font-family: Baron;
+  src: url("../font/BaronN.otf");
+}
+@font-face {
+  font-family: pba;
+  src: url("../font/pba.ttf");
+}
+#home {
+  background-image: url("../img/desktop/home.jpg");
+  background-size: auto 200%;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  font-family: Lovelo;
+}
+#home h2 {
+  padding-top: 30px;
+  font-family: pba;
+  color: white;
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 5px;
+}
+#home .colvis {
+  padding-top: 50px;
+}
+#home .colvis a {
+  text-decoration: none;
+}
+#home .colvis a:hover i {
+  color: #D8383F;
+}
+#home .colvis a svg {
+  position: absolute;
+  margin-left: 50%;
+  left: -260px;
+}
+#home .colvis a svg path {
+  stroke: white;
+  stroke-width: 15px;
+  fill: transparent;
+  opacity: 1;
+}
+#home .colvis a .collections, #home .colvis a .visiter {
+  position: relative;
+}
+#home .colvis a h3 {
+  color: white;
+  text-align: center;
+  line-height: 0.8em;
+  font-size: 3em;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+#home .colvis a h3 i {
+  line-height: 2em;
+  transition: 0.2s;
+}
+#home .colvis a h3 span {
+  font-size: 0.6em;
+  font-family: Baron;
+}
+
+@media (max-width: 1200px) {
+  #home .colvis {
+    padding-top: 20px;
+  }
+  #home .colvis .visiter {
+    top: 25px;
+  }
+}
+>>>>>>> collectionsvisiter
 
 /*# sourceMappingURL=adapt.css.map */

@@ -19,9 +19,23 @@ $red:#D8383F;
   background-size: auto 200% ;
   background-position: center;
   padding-top: 30px;
-  padding-bottom: 80px;
+  padding-bottom: 180px;
   font-family: Lovelo;
-  // height: 500px;
+  .arrowdown{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    i{
+      position: absolute;
+      top: 100px;
+      font-weight: bold;
+      transition: 0.2s;
+      &:hover{
+        color: $red;
+      }
+    }
+  }
   h2{
     padding-top: 30px;
     font-family: pba;
@@ -58,7 +72,6 @@ $red:#D8383F;
         font-size: 3em;
         padding-top: 80px;
         padding-bottom: 50px;
-        font-family: Baron;
         i{
           line-height: 2em;
           transition: 0.2s;
@@ -72,12 +85,47 @@ $red:#D8383F;
   }
 }
 
+@media (max-width: 576px){
+  #home{
+    background-position: center -320px;
+    background-size: auto 170%;
+    font-size: 0.5em;
+    h2{
+      font-size: 3.5em;
+      letter-spacing: 1px;
+    }
+    .colvis{
+
+
+        h3{
+          padding-top: 40px;
+          padding-bottom: 0px;
+        }
+        svg{
+          margin-left: 50%;
+          left: -130px ;
+          path{
+            stroke-width:10px;
+          }
+        }
+
+    }
+  }
+}
+
+
 @media (max-width: 1200px){
   #home{
+    background-position: center -320px;
+    background-size: auto 130%;
+    font-size: 0.5em;
     .colvis{
       padding-top: 20px;
       .visiter{
         top:25px;
+      }
+      .collections{
+        top: 0;
       }
     }
   }

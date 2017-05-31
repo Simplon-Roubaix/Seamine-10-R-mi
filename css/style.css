@@ -1,6 +1,19 @@
 html ,body {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+@font-face {
+  font-family: "lovelo";
+  src: url(../font/Lovelo_Black_1_.ttf);
+}
+
+@font-face {
+  font-family: "pba";
+  src: url(../font/pba.ttf);
+}
+
 
 /*font-family: 'Reem Kufi', sans-serif;*/
 
@@ -77,7 +90,7 @@ footer{
 {
   margin-left: 8px;
 }
-.logo-palais
+.logo-lille
 {
 
   align-self: center;
@@ -133,13 +146,79 @@ footer{
   display:block;
 }
 
+.icone:hover {
+  color: rgb(216,56,63);
+}
+
 
 
 /* $$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$*/
 
-.image {
+/*.image {
   width: 100%;
   height: 300px;
+}*/
+
+#article .section{
+  padding: 0;
+  height: 300px;
+  width: 100%;
+  background-image: url("../img/man.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  z-index: 8 !important;
+}
+
+#article .photo{
+  background-image: url("../img/man.jpg") !important;
+}
+
+#article .photo1{
+  background-image: url("../img/nue.jpg") !important;
+}
+#article .photo2{
+  background-image: url("../img/fille.jpg") !important;
+}
+#article .photo3{
+  background-image: url("../img/crabe.jpg") !important;
+}
+#article .photo4{
+  background-image: url("../img/alex.jpg") !important;
+}
+#article .photo5{
+  background-image: url("../img/regard.jpg") !important;
+}
+#article .photo6{
+  background-image: url("../img/visite.jpg") !important;
+}
+#article .photo7{
+  background-image: url("../img/man.jpg") !important;
+}
+
+#article .photo img{
+  z-index: -1 !important;
+}
+
+.article h2 {
+  font-family: "lovelo";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.article span {
+  color: #D3336C;
+  font-weight: 500;
+}
+
+.article h3 {
+  font-size: 17px;
+}
+
+.article h4 {
+  font-family: "open_sansbold";
+  font-weight: bold;
+  font-size: 12px;
+  word-spacing: 0;
 }
 
 

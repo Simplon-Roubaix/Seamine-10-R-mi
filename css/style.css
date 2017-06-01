@@ -35,8 +35,7 @@ footer{
 /*Agenda @@@@@@@@@@-@@@@@@@@@-@@@-@*/
 
 /* $$$$$$$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$*/
-.entete
-{
+.entete {
   background-color: rgb(0,0,0);
   height: 80px;
   display: flex;
@@ -47,8 +46,8 @@ footer{
   position: fixed;
   z-index: 10;
 }
-.no-mobile
-{
+
+.no-mobile {
   display:none;
 }
 
@@ -69,8 +68,7 @@ footer{
   color: rgb(216,56,63);
 }
 
-.nav-mobile-right
-{
+.nav-mobile-right {
   display:flex;
   justify-content: flex-end;
   align-content: center;
@@ -78,24 +76,17 @@ footer{
   width: 40%;
   margin-right: 10px;
 }
-.entete a
-{
 
+.entete a {
   text-decoration: none;
   color: white;
 }
 
-.info i, .entete a
-{
+.info i, .entete a {
   color: white;
 }
-.info, .button-burger
-{
-  margin-left: 8px;
-}
-.logo-lille
-{
 
+.logo-lille {
   align-self: center;
   height:85%;
   width: 10%;
@@ -104,17 +95,15 @@ footer{
   background-size:contain;
   background-repeat: no-repeat;
 }
-.logo-lille img
-{
 
+.logo-lille img {
   width: 100%;
   height: 100%;
 }
 
-.show
-{
-  display:block;
-}
+/*.show {
+display:block;
+}*/
 
 .icone:hover {
   color: rgb(216,56,63);
@@ -125,29 +114,30 @@ footer{
 /* $$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$*/
 
 /*+++++++++++++ 1er Section +++++++++++++++++++*/
- .first h2{
+.first h2 {
   font-family: "lovelo";
   font-weight: bold;
   font-size: 24px;
- }
+}
 
- .first img {
-   width: 75px;
-   margin-top: 100px;
- }
+.first img {
+  width: 75px;
+  margin-top: 100px;
+}
 
 .first .actu {
   font-family: "lovelo";
   border: 5px solid black;
   width: 300px;
-margin-left: 50%;
-left: -150px;
-position: relative;
+  margin-left: 50%;
+  left: -150px;
+  position: relative;
 
 }
+
 /*++++++++++++++++++++ Articles Agenda ++++++++++++*/
 
-#article .section{
+#article .section {
   padding: 0;
   height: 300px;
   width: 100%;
@@ -157,33 +147,39 @@ position: relative;
   z-index: 8 !important;
 }
 
-#article .photo{
+#article .photo {
   background-image: url("../img/man.jpg") !important;
 }
 
-#article .photo1{
+#article .photo1 {
   background-image: url("../img/nue.jpg") !important;
 }
-#article .photo2{
+
+#article .photo2 {
   background-image: url("../img/fille.jpg") !important;
 }
-#article .photo3{
+
+#article .photo3 {
   background-image: url("../img/crabe.jpg") !important;
 }
-#article .photo4{
+
+#article .photo4 {
   background-image: url("../img/alex.jpg") !important;
 }
-#article .photo5{
+
+#article .photo5 {
   background-image: url("../img/regard.jpg") !important;
 }
-#article .photo6{
+
+#article .photo6 {
   background-image: url("../img/visite.jpg") !important;
 }
-#article .photo7{
+
+#article .photo7 {
   background-image: url("../img/man.jpg") !important;
 }
 
-#article .photo img{
+#article .photo img {
   z-index: -1 !important;
 }
 
@@ -211,6 +207,8 @@ position: relative;
 
 /*!!!!!!!!!!!!!!!!! TABLET !!!!!!!!!!!!!!!!!!!!!*/
 @media (min-width: 640px) {
+
+  /*$$$$$$$$$$$$$ Articles Agenda $$$$$$$$$$$$$$$*/
   .article h2 {
     font-size: 33px;
   }
@@ -238,178 +236,174 @@ position: relative;
 /*!!!!!!!!!!!!!!!!! DESKTOP !!!!!!!!!!!!!!!!!!!!!*/
 @media (min-width: 1200px) {
 
-/*$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$$*/
-    .nav-mobile-right
-    {
-      display:none;
-    }
-    .no-mobile
-    {
-      display: block;
-    }
-    .entete
-    {
-      background-color: rgb(0,0,0) ;
-      justify-content: flex-start;
-      align-items: center;
-      flex-direction: row;
-      position: fixed;
-      z-index: 900;
-    }
-    .titre1
-    {
-      width: 30%;
-      height: 100%;
-      margin-left: 10px;
+  /*$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$$*/
+  .nav-mobile-right {
+    display:none;
+  }
 
-    }
-    .titre1 img
-    {
-      width: 100%;
-      margin-top: 20px;
-    }
-    .menu
-    {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      margin-top: 20px;
-      margin-right: 0px;
-    }
-    .menu li
-    {
-      margin-left: 20px;
-      margin-right: 10px;
-      font-weight: bold;
-      font-size: 20px;
-    }
+  .no-mobile {
+    display: block;
+  }
 
-    .menu li a
-    {
-      text-decoration: none;
-    }
-    .menu li a:hover
-    {
-      color: rgb(216,56,63);
-    }
-    .form
-    {
-      width: 190px;
-      height: 30px;
-      margin-left: 10px;
+  .entete {
+    background-color: rgb(0,0,0) ;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    z-index: 900;
+  }
 
-    }
-    .search
-    {
-      width: 100%;
-      height: 100%;
-      position: relative;
-    }
-    .search .icon
-    {
-      color:white;
-      top: 0px;
-      right: 0px;
-      position: absolute;
+  .titre1 {
+    width: 30%;
+    height: 100%;
+    margin-left: 10px;
+  }
 
-    }
+  .titre1 img {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-    .form input[type=search]
-    {
-      background-color: black;
-      border:4px solid white;
-      width: 100%;
-      height: 100%;
-      color: white;
-    }
-    .search:hover input[type=search]
-    {
-      border-color: rgb(216,56,63);
-    }
-    .search:hover .search .icon, .langueselect ul li a:hover
-    {
-      color: rgb(216,56,63);
-    }
-    .langueselect
-    {
-      margin-top: 20px;
-      height: 50px;
-      margin-left: 20px;
-      position: relative;
-    }
-    .langueselect  ul
-    {
-      list-style-type: none;
-    }
-    .langueselect ul li a
-    {
-      font-size: 20px;
-      color: white;
-      text-decoration: none;
-    }
+  .menu  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
 
-    .langueselect ul li .fa, .langueselect ul li a
-    {
-      color: white;
-    }
+  .menu li {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
 
-    .langueselect ul li .fa
-    {
-      font-size: 15px;
-      position: absolute;
-      left: 10px;
-      bottom: 20px;
-    }
-    .logo-palais
-    {
+  .menu li a {
+    text-decoration: none;
+  }
 
-      margin-right: 20px;
-      background-position: right;
-    }
+  .menu li a:hover {
+    color: rgb(216,56,63);
+  }
 
-.drop {
-  width: 13%;
-}
+  .form {
+    width: 190px;
+    height: 30px;
+    margin-left: 10px;
+  }
 
-/*$$$$$$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$$$*/
+  .search {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .search .icon {
+    color:white;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .form input[type=search] {
+    background-color: black;
+    border:4px solid white;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+  .search:hover input[type=search] {
+    border-color: rgb(216,56,63);
+  }
+
+  .search:hover .search .icon, .langueselect ul li a:hover {
+    color: rgb(216,56,63);
+  }
+
+  .langueselect {
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .langueselect  ul {
+    list-style-type: none;
+  }
+
+  .langueselect ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .langueselect ul li .fa, .langueselect ul li a {
+    color: white;
+  }
+
+  .langueselect ul li .fa {
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+  }
+
+  .logo-palais {
+    margin-right: 20px;
+    background-position: right;
+  }
+
+  .drop {
+    width: 13%;
+  }
+
+  /*$$$$$$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$$$*/
 
 
-/*!!!!!!!!!!!!!!! 1ere Section !!!!!!!!!!!!!!!!!!*/
- .first .actu {
-   position: absolute;
-right: 120px !important;
-margin: 0;
-top: 220px;
-left: initial;
- }
+  /*!!!!!!!!!!!!!!! 1ere Section !!!!!!!!!!!!!!!!!!*/
+  .first .actu {
+    position: absolute;
+    right: 120px !important;
+    margin: 0;
+    top: 220px;
+    left: initial;
+  }
 
-/*!!!!!!!!!!!!!!! Articles Agenda !!!!!!!!!!!!!!!!!!*/
+  /*!!!!!!!!!!!!!!! Articles Agenda !!!!!!!!!!!!!!!!!!*/
 
-#article .section{
- margin-left: 88px;
- width: 150px;
- height: 260px;
-}
+  #article .section{
+    margin-left: 88px;
+    width: 150px;
+    height: 260px;
+  }
 
-/*#article .article {
-  border-top: 1px solid #D3336C;
-  margin-bottom: 25px;
-}*/
+  .angle {
+    width: 37px;
+    height: 37px;
+    border-top: solid 16px;
+    border-right: solid 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: #D3336C ;
+    margin-right: 70px;
+  }
 
-.angle {
-  width: 37px;
-height: 37px;
-border-top: solid 16px;
-border-right: solid 16px;
-position: absolute;
-top: 0;
-right: 0;
-border-color: #D3336C ;
-margin-right: 70px;
-}
+  .border {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: #d3336c;
+  }
 
-.article h4 {
-  font-size: 15px;
-}
+  .article h4 {
+    font-size: 15px;
+  }
 
 }

@@ -74,6 +74,7 @@ img {
     text-shadow: 1px 1px 1px black;
 }
 
+
 .visiter p, .collections p {
     font-size: 12px;
 }
@@ -427,7 +428,36 @@ align-items: center;
 .icon {
     margin: 0px;
     color: white;
+
+
+
+
+
+/*Visiter @@@@@@@@@@-@@@@@@@@@-@@@-@*/
+
+
+/*Leila @@@@@@@@@@@@--@@@@@@@@@@--@@@@@@@@--@@@@@@--@@@@--@@@-@@-@-*/
+/*Agenda @@@@@@@@@@-@@@@@@@@@-@@@-@*/
+
+
+
+/*Batiste @@@@@@@@@@@@--@@@@@@@@@@--@@@@@@@@--@@@@@@--@@@@--@@@-@@-@-*/
+#noir{
+  background-color: black;
 }
+
+/*
+#hautfooter>.pratique>p{
+  font-size: 0.8em;
+  text-align: center;
+}
+#hautfooter>.pratique{
+  text-align: left;
+
+}
+/*
+  /******Section Typevisite******/
+
 
 a:hover {
     text-decoration: none;
@@ -452,6 +482,47 @@ a:hover {
     text-decoration: none;
     color: #D8383F;
 }
+
+  .typeVisite1,.typeVisite2,.typeVisite3,.typeVisite4,.typeVisite5{
+    display: inline-block;
+    background-color: black;
+    width: 20%;
+    margin:10 0;
+    height: 500px;
+  }
+
+  .mobile>a{
+    font-size: 3em;
+    color: black;
+  }
+
+  .mobile>a:hover{
+    color:red;
+    text-decoration: none;
+  }
+
+  #choixVisite{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #choixVisite article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #choixVisite article a{
+    background-color: white;
+    padding:20px 15px;
+    font-size: 1.2em;
+  }
+
+
+  #choixVisite article a b{
+    font-size:1.5em;
+  }
 
 
 @media (min-width: 768px) {
@@ -713,7 +784,8 @@ a:hover {
             flex: 0 0 20%;
     max-width: 20%;
   }
-/*# sourceMappingURL=adapt.css.map */
+/*# sourceMappingURL
+  
 /* FIN REMI @@@@@@@@@@@@@@@@@@@@@@@@@//@@@@@@@@@//@@//@@/@*/
 
 
@@ -807,6 +879,31 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .typeVisite1{
+    background-image: url(../img/imgVisite/mobile/visiteIndividuel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .typeVisite2{
+    background-image: url(../img/imgVisite/mobile/visiteGroupe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .typeVisite3{
+    background-image: url(../img/imgVisite/mobile/visiteFamille.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .typeVisite4{
+    background-image: url(../img/imgVisite/mobile/visiteEtudiant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
   .typeVisite5{
     background-image: url(../img/imgVisite/mobile/visiteEnseignant.jpg);
@@ -906,6 +1003,7 @@ body{
   #expo>.grandbleu{
     background-image: url(../img/imgVisite/ordinateur/legrandbleu.jpg);
   }
+
 
   #expo>.love{
     background-image: url(../img/imgVisite/mobile/love.png);
@@ -1025,6 +1123,126 @@ body{
     background-image: url(../img/imgVisite/mobile/logoteleapprouge.png);
   }
 
+
+  #expo>.love{
+    background-image: url(../img/imgVisite/mobile/love.png);
+  }
+
+  #expo>.table{
+    background-image: url(../img/imgVisite/mobile/table.png);
+  }
+
+  #expo>.ange{
+    background-image: url(../img/imgVisite/mobile/angedemon.png);
+  }
+
+  #expo>.bete{
+    background-image: url(../img/imgVisite/mobile/bete.png);
+  }
+
+  #expo>.lettre{
+    background-image: url(../img/imgVisite/mobile/chiffrelettre.png);
+  }
+
+  #expo>.brune{
+    background-image: url(../img/imgVisite/mobile/blondebrune.png);
+  }
+
+  #expo>.mini{
+    background-image: url(../img/imgVisite/mobile/minimaxi.png);
+  }
+
+  /*******Section Incontournable*******/
+
+  .incontournableblancheur{
+    background-color: white;
+  }
+
+  #incontournable>h4{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  #incontournable>.row{
+    margin-bottom: 0;
+  }
+
+  #incontournable>article>a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 30px;
+    height: 150px;
+    margin: 150px 0 0 100px;
+  }
+
+  #incontournable>.incontournable30mn:hover a,#incontournable>.incontournable60mn:hover a,#incontournable>.incontournable90mn:hover a{
+    color:red;
+  }
+
+  #incontournable>article{
+    height: 400px;
+    background-size: cover;
+  }
+
+  #incontournable>article>a>strong{
+    font-size: 1.5em;
+  }
+
+  #incontournable>.incontournable30mn{
+    background-image: url(../img/imgVisite/mobile/incontournable1.png);
+  }
+
+  #incontournable>.incontournable60mn{
+    background-image: url(../img/imgVisite/mobile/incontournable2.png);
+  }
+
+  #incontournable>.incontournable90mn{
+    background-image: url(../img/imgVisite/mobile/incontournable3.png);
+  }
+
+  /******Section Téléchargement App*******/
+
+  .teleapp{
+    background-color: red;
+  }
+
+  .teleapp:hover{
+    background-color: white;
+    color:white;
+    transition: all 0.3s;
+
+  }
+
+  .teleapp>.row>.titreteleapp{
+    text-align: center;
+  }
+  .teleapp:hover>.row>.titreteleapp{
+    color:red !important;
+  }
+
+  .teleapp>.row>small{
+    text-align: center;
+    color:white;
+    margin-right: 10px;
+  }
+
+  .teleapp:hover small{
+    color:red;
+  }
+
+  .teleapp>.row>.tablettmobile{
+    background-image: url(../img/imgVisite/mobile/logoteleappblanc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+  }
+
+  .teleapp:hover .tablettmobile{
+    background-image: url(../img/imgVisite/mobile/logoteleapprouge.png);
+  }
+
+
   /*******FOOTER******/
 
   footer>.row>article>ul>li,
@@ -1052,6 +1270,7 @@ body{
     width: 30px;
   }
 
+
   #hautfooter .icone>li>img:hover{
 
   }
@@ -1065,8 +1284,16 @@ body{
     padding: 0;
   }
 
-/*Visiter @@@@@@@@@@-@@@@@@@@@-@@@-@*/
 
+  #hautfooter .icone>li>img:hover{
 
-/*Leila @@@@@@@@@@@@--@@@@@@@@@@--@@@@@@@@--@@@@@@--@@@@--@@@-@@-@-*/
-/*Agenda @@@@@@@@@@-@@@@@@@@@-@@@-@*/
+  }
+
+  footer>.row>article>img{
+    height: 50px;
+    width: 50px;
+  }
+
+  #basfooter>small, #basfooter>img{
+    padding: 0;
+  }

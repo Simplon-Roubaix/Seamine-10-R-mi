@@ -102,11 +102,10 @@ main{
   font-style: Reem Kufi;
 }
 
-.typeVisite1 a:hover, .typeVisite2 a:hover, .typeVisite3 a:hover, .typeVisite4 a:hover, .typeVisite5 a:hover{
+.typeVisite1:hover a, .typeVisite2:hover a, .typeVisite3:hover a, .typeVisite4:hover a, .typeVisite5:hover a{
   color:red;
   text-decoration: none;
 }
-
 .choixVisite>figure>figcaption{
 
 }
@@ -170,7 +169,7 @@ main{
   color: black;
 }
 
-#expo>article>a:hover{
+#expo>.grandbleu:hover a, #expo>.love:hover a, #expo>.table:hover a, #expo>.ange:hover a, #expo>.bete:hover a, #expo>.lettre:hover a, #expo>.brune:hover a, #expo>.mini:hover a{
   color:red;
   text-decoration: none;
 }
@@ -238,7 +237,7 @@ main{
   margin: 150px 0 0 100px;
 }
 
-#incontournable>article>a:hover{
+#incontournable>.incontournable30mn:hover a,#incontournable>.incontournable60mn:hover a,#incontournable>.incontournable90mn:hover a{
   color:red;
 }
 
@@ -271,7 +270,9 @@ main{
 
 .teleapp:hover{
   background-color: white;
-  animation-duration: 2s;
+  color:white;
+  transition: all 0.3s;
+
 }
 
 .teleapp>.row>h4{
@@ -280,7 +281,6 @@ main{
 }
 .teleapp:hover h4{
   color:red;
-  animation-duration: 2s;
 }
 
 .teleapp>.row>small{
@@ -302,14 +302,37 @@ main{
 
 .teleapp:hover .tablettmobile{
   background-image: url(../img/imgVisite/mobile/logoteleapprouge.png);
-  animation-duration: 2s;
 }
 
-footer{
 
+
+footer>.row>article>ul>li,
+footer>.row>article>h4,
+footer>.row>article>p,
+#basfooter>small,
+footer>.row>article a, #basfooter ul li a{
+  color:white;
 }
 
-@media screen and (max-width: 1280px) {
+#hautfooter>.pratique>p{
+  font-size: 0.5em;
+}
+
+#hautfooter>.pratique>ul>li{
+  text-align: center;
+  list-style-type: none;
+}
+
+footer>.row>article>img{
+  height: 50px;
+  width: 50px;
+}
+
+#basfooter>small, #basfooter>img{
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
   .teleapp>.row>h4>small{
     display: none;
   }
@@ -320,6 +343,14 @@ footer{
 
   .teleapp:hover h4{
     border:2px solid red;
+  }
+
+  #hautfooter>.pratique>p{
+    font-size: 0.8em;
+    text-align: center;
+  }
+  #hautfooter>.pratique{
+    text-align: left;
   }
 
 }

@@ -111,40 +111,6 @@ footer{
   height: 100%;
 }
 
-/*--------------style for dropdown menu-----------*/
-
-/*.button-burger
-{
-  position: relative;
-  display: inline-block;
-}*/
-
-
-/*.menu-cache
-{
-  display: none;
-  position: absolute;
-  background-color: black;
-  width: 300px;
-  overflow: auto;
-  right:  0;
-  z-index:100;
-  top: 50px;
-  padding: 80px 50px 50px;
-}*/
-/*.menu-cache  a  .icon
-{
-  font-size: 13px;
-  color: white;
-}
-
-.menu-cache a
-{
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}*/
 .show
 {
   display:block;
@@ -158,6 +124,28 @@ footer{
 
 /* $$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$*/
 
+/*+++++++++++++ 1er Section +++++++++++++++++++*/
+ .first h2{
+  font-family: "lovelo";
+  font-weight: bold;
+  font-size: 24px;
+ }
+
+ .first img {
+   width: 75px;
+   margin-top: 100px;
+ }
+
+.first .actu {
+  font-family: "lovelo";
+  border: 5px solid black;
+  width: 300px;
+margin-left: 50%;
+left: -150px;
+position: relative;
+
+}
+/*++++++++++++++++++++ Articles Agenda ++++++++++++*/
 
 #article .section{
   padding: 0;
@@ -379,11 +367,45 @@ footer{
       background-position: right;
     }
 
+.drop {
+  width: 13%;
+}
+
 /*$$$$$$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$$$*/
+
+
+/*!!!!!!!!!!!!!!! 1ere Section !!!!!!!!!!!!!!!!!!*/
+ .first .actu {
+   position: absolute;
+right: 120px !important;
+margin: 0;
+top: 220px;
+left: initial;
+ }
+
+/*!!!!!!!!!!!!!!! Articles Agenda !!!!!!!!!!!!!!!!!!*/
+
 #article .section{
  margin-left: 88px;
  width: 150px;
  height: 260px;
+}
+
+/*#article .article {
+  border-top: 1px solid #D3336C;
+  margin-bottom: 25px;
+}*/
+
+.angle {
+  width: 37px;
+height: 37px;
+border-top: solid 16px;
+border-right: solid 16px;
+position: absolute;
+top: 0;
+right: 0;
+border-color: #D3336C ;
+margin-right: 70px;
 }
 
 .article h4 {

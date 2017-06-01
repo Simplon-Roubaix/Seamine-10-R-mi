@@ -698,4 +698,12 @@ a:hover {
       color: #D8383F;
     }
 }
+
+.col-lg-25 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    max-width: 20%;
+  }
 /*# sourceMappingURL=adapt.css.map */

@@ -1,8 +1,23 @@
 html ,body {
   width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
+@font-face {
+  font-family: "lovelo";
+  src: url(../font/Lovelo_Black_1_.ttf);
+}
+
+@font-face {
+  font-family: "pba";
+  src: url(../font/pba.ttf);
+}
+
+
 /*font-family: 'Reem Kufi', sans-serif;*/
+
 
 /*REMI*/
 @font-face {
@@ -16,6 +31,7 @@ html ,body {
 @font-face {
   font-family: pba;
   src: url("../font/pba.ttf");
+
 }
 
 /*CHANGEMENT DE COULEUR ICON*/
@@ -50,6 +66,395 @@ img {
 .pba figure {
     width: 70%;
     margin: auto;
+}
+
+/*Visiter @@@@@@@@@@-@@@@@@@@@-@@@-@*/
+
+footer{
+  background-color: black;
+}
+
+
+/*Leila @@@@@@@@@@@@--@@@@@@@@@@--@@@@@@@@--@@@@@@--@@@@--@@@-@@-@-*/
+/*Agenda @@@@@@@@@@-@@@@@@@@@-@@@-@*/
+
+
+/* $$$$$$$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$*/
+.entete {
+  background-color: rgb(0,0,0);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.no-mobile {
+  display:none;
+}
+
+.no-mobile input {
+  position: absolute;
+}
+
+.entete .loupe {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.entete .loupe:hover {
+  color: rgb(216,56,63);
+}
+
+.nav-mobile-right {
+  display:flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-self: center;
+  width: 40%;
+  margin-right: 10px;
+}
+
+.entete a {
+  text-decoration: none;
+  color: white;
+}
+
+.info i, .entete a {
+  color: white;
+}
+
+.logo-lille {
+  align-self: center;
+  height:85%;
+  width: 10%;
+  margin-left: 20px;
+  background-image: url("../img/logo-lille.svg");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.logo-lille img {
+  width: 100%;
+  height: 100%;
+}
+
+.icone:hover {
+  color: rgb(216,56,63);
+}
+
+
+
+/* $$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$*/
+
+/*+++++++++++++ 1er Section +++++++++++++++++++*/
+.first h2 {
+  font-family: "lovelo";
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.first img {
+  width: 75px;
+  margin-top: 100px;
+}
+
+.first .actu {
+  font-family: "lovelo";
+  border: 5px solid black;
+  width: 300px;
+  margin-left: 50%;
+  left: -150px;
+  position: relative;
+
+}
+
+/*++++++++++++++++++++ Articles Agenda ++++++++++++*/
+
+#article .section {
+  padding: 0;
+  height: 300px;
+  width: 100%;
+  background-image: url("../img/man.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  z-index: 8 !important;
+}
+
+#article .photo {
+  background-image: url("../img/man.jpg") !important;
+}
+
+#article .photo1 {
+  background-image: url("../img/nue.jpg") !important;
+}
+
+#article .photo2 {
+  background-image: url("../img/fille.jpg") !important;
+}
+
+#article .photo3 {
+  background-image: url("../img/crabe.jpg") !important;
+}
+
+#article .photo4 {
+  background-image: url("../img/alex.jpg") !important;
+}
+
+#article .photo5 {
+  background-image: url("../img/regard.jpg") !important;
+}
+
+#article .photo6 {
+  background-image: url("../img/visite.jpg") !important;
+}
+
+#article .photo7 {
+  background-image: url("../img/man.jpg") !important;
+}
+
+#article .photo img {
+  z-index: -1 !important;
+}
+
+.article h2 {
+  font-family: "lovelo";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.article span {
+  color: #D3336C;
+  font-weight: 500;
+}
+
+.article h3 {
+  font-size: 17px;
+}
+
+.article h4 {
+  font-weight: bold;
+  font-size: 13px;
+  word-spacing: 0;
+}
+
+
+/*!!!!!!!!!!!!!!!!! TABLET !!!!!!!!!!!!!!!!!!!!!*/
+@media (min-width: 640px) {
+
+  /*$$$$$$$$$$$$$ Articles Agenda $$$$$$$$$$$$$$$*/
+  .article h2 {
+    font-size: 33px;
+  }
+
+  .article h3 {
+    font-size: 30px;
+  }
+
+  .article h4 {
+    font-size: 26px;
+  }
+
+  .article p {
+    font-family: arial;
+  }
+
+  .article span {
+    font-weight: normal;
+  }
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!! DESKTOP !!!!!!!!!!!!!!!!!!!!!*/
+@media (min-width: 1200px) {
+
+  /*$$$$$$$$$$$ HEADER $$$$$$$$$$$$$$$$$$$*/
+  .nav-mobile-right {
+    display:none;
+  }
+
+  .no-mobile {
+    display: block;
+  }
+
+  .entete {
+    background-color: rgb(0,0,0) ;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    z-index: 900;
+  }
+
+  .titre1 {
+    width: 30%;
+    height: 100%;
+    margin-left: 10px;
+  }
+
+  .titre1 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .menu  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+
+  .menu li {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .menu li a {
+    text-decoration: none;
+  }
+
+  .menu li a:hover {
+    color: rgb(216,56,63);
+  }
+
+  .form {
+    width: 190px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .search {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .search .icon {
+    color:white;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+  }
+
+  .form input[type=search] {
+    background-color: black;
+    border:4px solid white;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+  .search:hover input[type=search] {
+    border-color: rgb(216,56,63);
+  }
+
+  .search:hover .search .icon, .langueselect ul li a:hover {
+    color: rgb(216,56,63);
+  }
+
+  .langueselect {
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .langueselect  ul {
+    list-style-type: none;
+  }
+
+  .langueselect ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .langueselect ul li .fa, .langueselect ul li a {
+    color: white;
+  }
+
+  .langueselect ul li .fa {
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+  }
+
+  .logo-palais {
+    margin-right: 20px;
+    background-position: right;
+  }
+
+  .drop {
+    width: 13%;
+  }
+
+  /*$$$$$$$$$$$$$$$$$$$$$ AGENDA $$$$$$$$$$$$$$$$$$$$*/
+
+
+  /*!!!!!!!!!!!!!!! 1ere Section !!!!!!!!!!!!!!!!!!*/
+  .first .actu {
+    position: absolute;
+    right: 120px !important;
+    margin: 0;
+    top: 220px;
+    left: initial;
+  }
+
+  /*!!!!!!!!!!!!!!! Articles Agenda !!!!!!!!!!!!!!!!!!*/
+
+  #article .section{
+    margin-left: 88px;
+    width: 150px;
+    height: 260px;
+  }
+
+  .angle {
+    width: 37px;
+    height: 37px;
+    border-top: solid 16px;
+    border-right: solid 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: #D3336C ;
+    margin-right: 70px;
+  }
+
+  .border {
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: #d3336c;
+  }
+
+  .article h4 {
+    font-size: 15px;
+  }
+
+  .article h2 {
+    padding-top: 35px;
+  }
+
+  #important {
+    margin-top: 0 !important;
+  }
+
 }
 
 .pba article {
@@ -791,6 +1196,7 @@ a:hover {
 
 /*Home @@@@@@@@@@-@@@@@@@@@-@@@-@*/
 
+
 header{
 
 }
@@ -1297,3 +1703,4 @@ body{
   #basfooter>small, #basfooter>img{
     padding: 0;
   }
+
